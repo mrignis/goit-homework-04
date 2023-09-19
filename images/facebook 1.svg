@@ -1,26 +1,9 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="24" height="24" fill="#E5E5E5"/>
-<g id="Main Page" clip-path="url(#clip0_297016_823)">
-<rect width="1440" height="3468" transform="translate(-660 -3304)" fill="white"/>
-<g id="Footer">
-<rect id="Dark-bg" x="-660" y="-148" width="1440" height="312" fill="#2E2F42"/>
-<g id="Social">
-<g id="Social Links">
-<g id="Ellipse">
-<path id="Ellipse_2" d="M32 12C32 17.5228 29.7614 22.5228 26.1421 26.1421C22.5228 29.7614 17.5228 32 12 32C6.47715 32 1.47715 29.7614 -2.14214 26.1421C-5.76142 22.5228 -8 17.5228 -8 12C-8 6.47715 -5.76142 1.47715 -2.14214 -2.14214C1.47715 -5.76142 6.47715 -8 12 -8C17.5228 -8 22.5228 -5.76142 26.1421 -2.14214C29.7614 1.47715 32 6.47715 32 12Z" fill="#4D5AE5"/>
-<g id="facebook 1" clip-path="url(#clip1_297016_823)">
+<g id="facebook 1" clip-path="url(#clip0_583167_8)">
 <path id="Vector" d="M15.997 3.985H18.188V0.169C17.81 0.117 16.51 0 14.996 0C11.837 0 9.67298 1.987 9.67298 5.639V9H6.18698V13.266H9.67298V24H13.947V13.267H17.292L17.823 9.001H13.946V6.062C13.947 4.829 14.279 3.985 15.997 3.985Z" fill="#F4F4FD"/>
 </g>
-</g>
-</g>
-</g>
-</g>
-</g>
 <defs>
-<clipPath id="clip0_297016_823">
-<rect width="1440" height="3468" fill="white" transform="translate(-660 -3304)"/>
-</clipPath>
-<clipPath id="clip1_297016_823">
+<clipPath id="clip0_583167_8">
 <rect width="24" height="24" fill="white"/>
 </clipPath>
 </defs>
