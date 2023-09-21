@@ -29,7 +29,7 @@ nav li{list-style: none;}
 nav a{
     text-decoration: none;
     position: relative;
-    color: #404bbf;;}
+    color: #404bbf;}
 
 nav a::after{
     content: '';
@@ -113,7 +113,6 @@ address a:focus::after {
 }
 .head-menu-one{padding: 24px 0;}
 .head-menu-two{ 
-    color: text #404bbf; 
     color:#2e2f42;
     font-size: 16px;
     font-style: normal;
@@ -150,12 +149,11 @@ address a:focus::after {
 .info:focus{color: #404bbf;}
 
 
-
 .main-title {
     max-width: 1440px;
     margin: 0 auto;
     background-color: #2E2F42;
-    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('/images/people-office1.svg');
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('./images/people-office.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
