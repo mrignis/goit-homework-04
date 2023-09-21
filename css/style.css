@@ -113,7 +113,7 @@ address a:focus::after {
 }
 .head-menu-one{padding: 24px 0;}
 .head-menu-two{ 
-    color: #404bbf; 
+    color: text #404bbf; 
     color:#2e2f42;
     font-size: 16px;
     font-style: normal;
