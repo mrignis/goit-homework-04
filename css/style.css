@@ -58,7 +58,8 @@ address ul{
     display: flex;
     align-items:center;}
 address li{list-style: none;}
-address a{text-decoration: none;
+address a{
+    text-decoration: none;
     position: relative;
     color: #404bbf;}
 address a::after{ content: '';
@@ -114,7 +115,6 @@ address a:focus::after {
 .head-menu-one{padding: 24px 0;}
 .head-menu-two{ 
     color:#2e2f42;
-    color: #404bbf;
     font-size: 16px;
     font-style: normal;
     font-weight: 500; 
