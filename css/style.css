@@ -150,8 +150,8 @@ address a:focus::after {
 
 
 .main-title {
-    width: 100%;
-    max-width: 1440;
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: #2E2F42;
     background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('/images/people-office1.svg');
     background-size: cover;
@@ -226,9 +226,6 @@ h1,h2,h3,p{margin: 0;}
     height: 112px;
     flex-shrink: 0;
     margin-bottom: 8px;}
-.skills-image{
-margin: auto;
-}
 .stra-one{
     font-weight: 500;
     font-size: 20px;
@@ -264,7 +261,6 @@ margin: auto;
     background-color:#FFFFFF; 
     flex-basis: calc((100% - 3 * 24px) / 4);
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
     border-radius: 0px 0px 4px 4px;}
 
 
@@ -375,6 +371,11 @@ margin: 0;}
     align-items: center;
     margin: 0 ;
 }
+.container-footer{
+    display: flex;
+    align-items: baseline;
+    }
+.first-part-footer { margin-right: 120px}
 .titlefoot{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -392,3 +393,30 @@ margin: 0;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px; }
+
+
+.second-part-text{
+    color: var(--WHITE, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.32px;
+    margin-bottom: 16px;}
+.social-networks { 
+    display: flex;
+    gap: 16px;
+    flex-shrink: 0;
+    align-self: flex-end;}
+.social-networks .social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+.social-media-two{
+}
