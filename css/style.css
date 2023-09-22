@@ -80,7 +80,7 @@ nav a::after{
 nav ul .head-menu-one a{ color: #2e2f42;}
 nav a:hover::after,
 nav a:focus::after { 
-    color: currentColor;
+   
     transform: scaleX(1); /* При ховері або фокусі розгортаємо підкреслення */}
 .head-menu{
     display: flex;
@@ -88,6 +88,7 @@ nav a:focus::after {
 }
 .head-menu-one{padding: 24px 0;}
 .head-menu-two{ 
+    color: currentColor;
     color:#404bbf;
     font-size: 16px;
     font-style: normal;
