@@ -77,9 +77,10 @@ nav a::after{
     transform: scaleX(0); /* Початково підкреслення не видно */
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) /* Анімація зміни ширини */
 }
+nav ul .head-menu-one a{ color: #2e2f42;}
 nav a:hover::after,
 nav a:focus::after { 
-    color:#404bbf;
+    color: currentColor;
     transform: scaleX(1); /* При ховері або фокусі розгортаємо підкреслення */}
 .head-menu{
     display: flex;
@@ -87,7 +88,7 @@ nav a:focus::after {
 }
 .head-menu-one{padding: 24px 0;}
 .head-menu-two{ 
-    color:#2e2f42;
+    color:#404bbf;
     font-size: 16px;
     font-style: normal;
     font-weight: 500; 
